@@ -374,38 +374,38 @@
     <script type="module">
         // --- DATA ---
       const foodMenu = [
-            { id: 101, name: 'ข้าวคลุกกะปิ', price: 50, category: 'food', img: '../food/Savory food101/1001.webp' },
-            { id: 102, name: 'กะเพราหมูกรอบ', price: 60, category: 'food', img: '../food/Savory food101/1002.webp' },
-            { id: 103, name: 'สปาเกตตี้ผัดขี้เมาทะเล', price: 79, category: 'food', img: '../food/Savory food101/1003.jpg' },
-            { id: 104, name: 'ข้าวหน้าไก่ซอสเทริยากิ', price: 69, category: 'food', img: '../food/Savory food101/1004.webp' },
-            { id: 105, name: 'ราดหน้าหมูเส้นใหญ่', price: 40, category: 'food', img: '../food/Savory food101/1005.webp' },
-            { id: 106, name: 'ข้าวไข่เจียวหมูสับ', price: 40, category: 'food', img: '../food/Savory food101/1006.jpg' },
-            { id: 107, name: 'ข้าวหมูแดงหมูกรอบ', price: 60, category: 'food', img: '../food/Savory food101/1007.jpg' },
+            { id: 101, name: 'ข้าวคลุกกะปิ', price: 50, category: 'food', img: './food/Savory food101/1001.webp' },
+            { id: 102, name: 'กะเพราหมูกรอบ', price: 60, category: 'food', img: './food/Savory food101/1002.webp' },
+            { id: 103, name: 'สปาเกตตี้ผัดขี้เมาทะเล', price: 79, category: 'food', img: './food/Savory food101/1003.jpg' },
+            { id: 104, name: 'ข้าวหน้าไก่ซอสเทริยากิ', price: 69, category: 'food', img: './food/Savory food101/1004.webp' },
+            { id: 105, name: 'ราดหน้าหมูเส้นใหญ่', price: 40, category: 'food', img: './food/Savory food101/1005.webp' },
+            { id: 106, name: 'ข้าวไข่เจียวหมูสับ', price: 40, category: 'food', img: './food/Savory food101/1006.jpg' },
+            { id: 107, name: 'ข้าวหมูแดงหมูกรอบ', price: 60, category: 'food', img: './food/Savory food101/1007.jpg' },
         ];
 
         // 2. หมวดเครื่องดื่ม (Drink) -> รหัสขึ้นต้นด้วย 2xx
         const drinkMenu = [
-            { id: 201, name: 'นมชมพู', price: 25, category: 'drink', img: '../food/Beverage201/2001.webp' },
-            { id: 202, name: 'ชาไทยเย็น', price: 35, category: 'drink', img: '../food/Beverage201/2002.jpg' },
-            { id: 203, name: 'โกโก้เย็น', price: 30, category: 'drink', img: '../food/Beverage201/2003.jpg' },
-            { id: 204, name: 'ชาเลมอน', price: 30, category: 'drink', img: '../food/Beverage201/2004.jpg' },
-            { id: 205, name: 'กาแฟลาเต้เย็น', price: 35, category: 'drink', img: '../food/Beverage201/2005.png' },
-            { id: 206, name: 'ชาเขียวมัทฉะ', price: 35, category: 'drink', img: '../food/Beverage201/2006.jpg' },
-            { id: 207, name: 'ชานมไข่มุก', price: 35, category: 'drink', img: '../food/Beverage201/2007.jpg' },
+            { id: 201, name: 'นมชมพู', price: 25, category: 'drink', img: './food/Beverage201/2001.webp' },
+            { id: 202, name: 'ชาไทยเย็น', price: 35, category: 'drink', img: './food/Beverage201/2002.jpg' },
+            { id: 203, name: 'โกโก้เย็น', price: 30, category: 'drink', img: './food/Beverage201/2003.jpg' },
+            { id: 204, name: 'ชาเลมอน', price: 30, category: 'drink', img: './food/Beverage201/2004.jpg' },
+            { id: 205, name: 'กาแฟลาเต้เย็น', price: 35, category: 'drink', img: './food/Beverage201/2005.png' },
+            { id: 206, name: 'ชาเขียวมัทฉะ', price: 35, category: 'drink', img: './food/Beverage201/2006.jpg' },
+            { id: 207, name: 'ชานมไข่มุก', price: 35, category: 'drink', img: './food/Beverage201/2007.jpg' },
         ];
 
         // 3. หมวดของหวาน (Dessert) -> รหัสขึ้นต้นด้วย 3xx
         const dessertMenu = [
-            { id: 301, name: 'วาฟเฟิลไอศกรีม', price: 79, category: 'dessert', img: '../food/Dessert301/3001.jpg' },
-            { id: 302, name: 'บราวนี่ช็อกโกแลต', price: 15, category: 'dessert', img: '../food/Dessert301/3002.jpg' },
-            { id: 303, name: 'ไอศกรีมกะทิ', price: 29, category: 'dessert', img: '../food/Dessert301/3003.jpg' },
-            { id: 304, name: 'แพนเค้กน้ำผึ้ง', price: 59, category: 'dessert', img: '../food/Dessert301/3004.webp' },
-            { id: 305, name: 'เฉาก๊วยนมสด', price: 20, category: 'dessert', img: '../food/Dessert301/3005.webp' },
-            { id: 306, name: 'เครปหวาน', price: 59, category: 'dessert', img: '../food/Dessert301/3006.webp' },
-            { id: 307, name: 'ขนมปังปิ้งเนยนม', price: 20, category: 'dessert', img: '../food/Dessert301/3007.jpg' },
-            { id: 308, name: 'บัวลอยไข่หวาน', price: 30, category: 'dessert', img: '../food/Dessert301/3008.jpg' },
-            { id: 309, name: 'ข้าวเหนียวมะม่วง', price: 60, category: 'dessert', img: '../food/Dessert301/3009.jpg' },
-            { id: 310, name: 'เค้กช็อกโกแลต', price: 35, category: 'dessert', img: '../food/Dessert301/3010.jpg' },
+            { id: 301, name: 'วาฟเฟิลไอศกรีม', price: 79, category: 'dessert', img: './food/Dessert301/3001.jpg' },
+            { id: 302, name: 'บราวนี่ช็อกโกแลต', price: 15, category: 'dessert', img: './food/Dessert301/3002.jpg' },
+            { id: 303, name: 'ไอศกรีมกะทิ', price: 29, category: 'dessert', img: './food/Dessert301/3003.jpg' },
+            { id: 304, name: 'แพนเค้กน้ำผึ้ง', price: 59, category: 'dessert', img: './food/Dessert301/3004.webp' },
+            { id: 305, name: 'เฉาก๊วยนมสด', price: 20, category: 'dessert', img: './food/Dessert301/3005.webp' },
+            { id: 306, name: 'เครปหวาน', price: 59, category: 'dessert', img: './food/Dessert301/3006.webp' },
+            { id: 307, name: 'ขนมปังปิ้งเนยนม', price: 20, category: 'dessert', img: './food/Dessert301/3007.jpg' },
+            { id: 308, name: 'บัวลอยไข่หวาน', price: 30, category: 'dessert', img: './food/Dessert301/3008.jpg' },
+            { id: 309, name: 'ข้าวเหนียวมะม่วง', price: 60, category: 'dessert', img: './food/Dessert301/3009.jpg' },
+            { id: 310, name: 'เค้กช็อกโกแลต', price: 35, category: 'dessert', img: './food/Dessert301/3010.jpg' },
         ];
 
         const menuData = [...foodMenu, ...drinkMenu, ...dessertMenu];
@@ -1041,3 +1041,4 @@ function switchPage(page) {
 
 </body>
 </html>
+
